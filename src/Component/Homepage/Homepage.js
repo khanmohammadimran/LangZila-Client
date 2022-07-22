@@ -1,9 +1,10 @@
 import React from 'react';
+import Guideline from './Guideline/Guideline';
 
 const Homepage = () => {
     return (
         <div>
-            <h2>This is Guideline Component</h2>
+            <Guideline></Guideline>
         </div>
     );
 };
