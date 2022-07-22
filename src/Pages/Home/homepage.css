@@ -1,0 +1,23 @@
+.app-service {
+  text-align: center;
+  font-family: 'Nunito',
+    sans-serif;
+  background-color: #f7ebeb;
+  height: 100%;
+  padding: 50px;
+  background-image: url(../../../public/bag.png), url(../../../public/bgwid.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, 60px 100%;
+}
+
+.full-app {
+  height: 100vh;
+  background-image: url(../../../public/kidsbg.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.tittle {
+  font-weight: 700;
+}

@@ -1,0 +1,49 @@
+.app-service {
+  text-align: center;
+  font-family: 'Nunito',
+    sans-serif;
+  background-color: #f7ebeb;
+  height: 100%;
+  padding: 50px;
+  background-image: url(../../../public/bag.png), url(../../../public/bgwid.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, 60px 100%;
+}
+
+.full-app {
+  /* height: 100vh; */
+  /* background-image: url(../../../public/kidsbg.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover; */
+}
+
+.text-section {
+  position: relative;
+  z-index: 5;
+}
+
+.slide-section {
+  position: relative;
+  z-index: 5;
+}
+
+.full-app {
+  position: relative;
+}
+
+.back-img {
+  position: absolute;
+  top: 60px;
+
+  right: 115px;
+
+}
+
+.tittle {
+  font-weight: 700;
+}
+
+.sm-tittle {
+  color: #ff503e;
+}
